@@ -1,0 +1,188 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2019-07-07T16:02:05.040Z",
+  "__export_source": "insomnia.desktop.app:v6.5.4",
+  "resources": [
+    {
+      "_id": "req_86ba45616de346d0932ba0cb6990c151",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"title\": \"Desafio4\"\n}"
+      },
+      "created": 1562501251902,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_ec4bcfe7350a4c049e6ea964c2f7debe",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1562462359944.5,
+      "method": "POST",
+      "modified": 1562514502278,
+      "name": "Criar Tarefa",
+      "parameters": [],
+      "parentId": "fld_7da3eb5e6c3d4c82980bbc29a125cad7",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects/1/tasks",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_7da3eb5e6c3d4c82980bbc29a125cad7",
+      "created": 1562514429054,
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1562514429054,
+      "modified": 1562514429054,
+      "name": "Desafio1Bootcamp",
+      "parentId": "wrk_5ab3d2a87ba7456e80dce361744c31e3",
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_5ab3d2a87ba7456e80dce361744c31e3",
+      "created": 1562410012166,
+      "description": "",
+      "modified": 1562410012166,
+      "name": "Insomnia",
+      "parentId": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_f4355d590edc4283bdb74f418f9092fb",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"id\": \"3\",\n\t\"title\": \"Modulos\",\n\t\"tasks\": \"nova tarefa\"\n}"
+      },
+      "created": 1562488181556,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_ec4bcfe7350a4c049e6ea964c2f7debe",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1562462359894.5,
+      "method": "POST",
+      "modified": 1562514490074,
+      "name": "Criar Projeto",
+      "parameters": [],
+      "parentId": "fld_7da3eb5e6c3d4c82980bbc29a125cad7",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects/",
+      "_type": "request"
+    },
+    {
+      "_id": "req_d8468f16abbf437988172fdd9a315c31",
+      "authentication": {},
+      "body": {},
+      "created": 1562484928044,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1562462359844.5,
+      "method": "GET",
+      "modified": 1562514477981,
+      "name": "Listagem de todos os Projetos",
+      "parameters": [],
+      "parentId": "fld_7da3eb5e6c3d4c82980bbc29a125cad7",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects/",
+      "_type": "request"
+    },
+    {
+      "_id": "req_6a1fb6899acf45e787b275da56f400ad",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"id\": \"3\",\n\t\"title\": \"Modulos3\"\n}"
+      },
+      "created": 1562514857534,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_ec4bcfe7350a4c049e6ea964c2f7debe",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1562462359819.5,
+      "method": "PUT",
+      "modified": 1562515092150,
+      "name": "Update project",
+      "parameters": [],
+      "parentId": "fld_7da3eb5e6c3d4c82980bbc29a125cad7",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects/3",
+      "_type": "request"
+    },
+    {
+      "_id": "req_485b1e86d31c4e23baec99fe4f01498f",
+      "authentication": {},
+      "body": {},
+      "created": 1562514672102,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1562462359794.5,
+      "method": "DELETE",
+      "modified": 1562514739979,
+      "name": "Delete project",
+      "parameters": [],
+      "parentId": "fld_7da3eb5e6c3d4c82980bbc29a125cad7",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/projects/2",
+      "_type": "request"
+    },
+    {
+      "_id": "env_a71dc628cf5cf689ee84fd3a29c04ad5770e58c0",
+      "color": null,
+      "created": 1562410012234,
+      "data": {},
+      "dataPropertyOrder": null,
+      "isPrivate": false,
+      "metaSortKey": 1562410012234,
+      "modified": 1562410012234,
+      "name": "Base Environment",
+      "parentId": "wrk_5ab3d2a87ba7456e80dce361744c31e3",
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_a71dc628cf5cf689ee84fd3a29c04ad5770e58c0",
+      "cookies": [],
+      "created": 1562410012236,
+      "modified": 1562410012236,
+      "name": "Default Jar",
+      "parentId": "wrk_5ab3d2a87ba7456e80dce361744c31e3",
+      "_type": "cookie_jar"
+    }
+  ]
+}
